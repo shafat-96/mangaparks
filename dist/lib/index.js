@@ -36,7 +36,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getPopularUpdates = getPopularUpdates;
 exports.fetchChapterImages = fetchChapterImages;
 const cheerio = __importStar(require("cheerio"));
-const client_1 = require("../utils/client");
+const client_1 = require("./client");
 // High-level: fetch + return MangaPark popular updates (GraphQL)
 async function getPopularUpdates(params = {}) {
     const { init = 12, page = 1, size = 24 } = params;
