@@ -1,6 +1,6 @@
 {
   "name": "mangapark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial MangaPark fetching and parsing utilities (popular updates and chapter images)",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",

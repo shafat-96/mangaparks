@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { client } from '../utils/client';
+import { client } from './client';
 
 export type PopularUpdatesParams = {
   init?: number;
